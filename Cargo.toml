@@ -1,0 +1,19 @@
+[package]
+name = "checksec"
+version = "0.1.0"
+description = "wraps checksec.rs for node :)"
+license = "ISC"
+edition = "2021"
+exclude = ["index.node"]
+
+[lib]
+crate-type = ["cdylib"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+neon = "1"
+checksec = {version = "0.0.9", features = ["elf"]}
+goblin = "0.5.0"
+serde = "1"
+serde_json = "1"
