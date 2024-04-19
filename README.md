@@ -1,6 +1,6 @@
-# checksec
+# oxidized_npm
 
-**checksec:** wraps checksec.rs for node :)
+**oxidized_npm:** wraps rust libraries for node :)
 
 This project was bootstrapped by [create-neon](https://www.npmjs.com/package/create-neon).
 

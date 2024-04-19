@@ -1,8 +1,8 @@
 {
-  "name": "checksec",
+  "name": "oxidized_npm",
   "version": "0.1.0",
-  "description": "wraps checksec.rs for node :)",
-  "main": "index.node",
+  "description": "wraps crates for node :)",
+  "main": "lib/index.js",
   "scripts": {
     "build": "cargo-cp-artifact -nc index.node -- cargo build --message-format=json-render-diagnostics",
     "build-debug": "npm run build --",
